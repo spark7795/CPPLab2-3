@@ -28,6 +28,7 @@ public:
 		var2 = B;
 		swap(var1, var2);
 	}
+	/*Some*/
 	void operator [] (int n) 
 	{
 		neg = n;
@@ -39,6 +40,7 @@ public:
 	void operator++(int) {
 		tmp = tmp + 5;
 	}
+	/*New*/
 	void getStr()
 	{
 		cout << str << endl << endl;//вывод символьного массива класса на экран
@@ -62,7 +64,7 @@ void reload_plus() {
 	char *str2 = new char[strlen("Всё ходит по цепи кругом;\n") + 1];
 	char *str3 = new char[strlen("И днём и ночью кот учёный\n") + 1];
 	char *str4 = new char[strlen("Златая цепь на дубе том:\n") + 1];
-
+	/*Code*/
 	strcpy(str1, "У лукоморья дуб зелёный;\n");//инициализируем
 	strcpy(str2, "Всё ходит по цепи кругом;\n");
 	strcpy(str3, "И днём и ночью кот учёный\n");
